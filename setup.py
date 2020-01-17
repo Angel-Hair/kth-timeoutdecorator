@@ -9,7 +9,6 @@ except ImportError:
 CLASSIFIERS = [
     'Intended Audience :: Developers',
     'License :: OSI Approved :: MIT License',
-    'Natural Language :: Chinese',
     'Operating System :: OS Independent',
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
@@ -24,14 +23,14 @@ with open("README.md", "r", encoding='utf-8') as fh:
     long_description = fh.read()
 
 setup(
-    name='th-timeoutdecorator',
-    version='0.0.2',
+    name='kth-timeoutdecorator',
+    version='0.0.3',
     description='timeout decorator for python',
     long_description=long_description,
     long_description_content_type="text/markdown",
     author='Angel Hair',
     author_email='asdwsl@foxmail.com',
-    url='https://github.com/Angel-Hair/th-timeoutdecorator',
-    packages=['th_timeoutdecorator'],
+    url='https://github.com/Angel-Hair/kth-timeoutdecorator',
+    packages=['kth_timeoutdecorator'],
     install_requires=[],
     classifiers=CLASSIFIERS)
