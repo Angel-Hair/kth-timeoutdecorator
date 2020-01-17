@@ -48,10 +48,10 @@ if __name__ == '__main__':
 ```
 
 如果执行成功，则会输出以下信息：
-> [Test] 1 seconds have passed
-> [Test] 2 seconds have passed
-> [Test] 3 seconds have passed
-> [Test] function run too long, time limit exceeded.
+> [Test] 1 seconds have passed  
+> [Test] 2 seconds have passed  
+> [Test] 3 seconds have passed  
+> [Test] function run too long, time limit exceeded.  
 
 ## 开源许可证
 
