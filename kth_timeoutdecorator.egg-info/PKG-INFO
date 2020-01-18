@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: kth-timeoutdecorator
-Version: 0.0.4
+Version: 0.0.5
 Summary: timeout decorator for python
 Home-page: https://github.com/Angel-Hair/kth-timeoutdecorator
 Author: Angel Hair
@@ -70,6 +70,11 @@ Description: # kth-timeoutdecorator
         ### 0.0.4
         
         * 修改了`seconds`参数的可选项，使得修饰器更加灵活。
+        
+        ### 0.0.5
+        
+        * **修复了之前版本的bug，请勿再使用0.0.2版本**
+        
 Platform: UNKNOWN
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: MIT License

@@ -6,6 +6,12 @@ import sys, threading
 # license: MIT, see LICENSE for more details.
 # https://github.com/Angel-Hair/kth-timeoutdecorator
 
+class TimeoutException(Exception):
+    def __init__(self, msg):
+        self.msg = msg
+    def __str__(self):
+        return self.msg
+
 class KThread(threading.Thread):
     def __init__(self, *args, **kwargs):
         threading.Thread.__init__(self, *args, **kwargs)
