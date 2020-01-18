@@ -24,7 +24,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setup(
     name='kth-timeoutdecorator',
-    version='0.0.3',
+    version='0.0.4',
     description='timeout decorator for python',
     long_description=long_description,
     long_description_content_type="text/markdown",

@@ -56,3 +56,9 @@ if __name__ == '__main__':
 ## 开源许可证
 
 本项目使用 [MIT](https://github.com/Angel-Hair/th-timeoutdecorator/blob/master/LICENSE) 许可证。
+
+## 开发日志
+
+### 0.0.4
+
+* 修改了`seconds`参数的可选项，使得修饰器更加灵活。
