@@ -61,7 +61,10 @@ def timeout(seconds=None):
             thd = KThread(target=_new_func, args=(), kwargs=new_kwargs)
             thd.start()
             thd.join(seconds)
-            alive = thd.isAlive()
+            if sys.version_info >= (3, 9):
+                alive = thd.is_alive()
+            else:
+                alive = thd.isAlive()
             thd.kill()
             if alive:
                 thd.raisetimeout()
